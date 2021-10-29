@@ -1,2 +1,5 @@
 # Code Owners
 *    @atrao
+
+/src/frontend   @codewith1/tech1
+/src/backend   @codewith1/tech2
