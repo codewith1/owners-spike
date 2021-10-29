@@ -2,6 +2,6 @@
 *    @codewith1/tech-team
 
 # all legal tagging must be reviewed by bertelsmann-legal and msft-legal
-legal-tagging/*    @code-with1/legal-team
+legal-tagging/*    @codewith1/legal-team
 
 src/backend/    @codewith1/tech2
