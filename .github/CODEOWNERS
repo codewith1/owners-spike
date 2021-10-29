@@ -1,0 +1,7 @@
+# all code must be reviewed by @bertelsmann-tech @msft-tech teams
+*    @codewith1/tech1
+
+# all legal tagging must be reviewed by bertelsmann-legal and msft-legal
+legal-tagging/*    @code-with1/legal-team
+
+src/backend/    @codewith1/tech2
