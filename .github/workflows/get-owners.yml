@@ -1,19 +1,16 @@
 # This is a GitHub workflow that gets code owners
-name: PR Policy Checks - Code Owners Reviews
+name: Get Code Owners
 
 # Controls when the action will run. 
-on:
-  pull_request_review:
-    types: [submitted, edited, dismissed]
+on: [pull_request]
 
 env:
   PR_API_URL: ${{ github.event.pull_request.url }}
 
 jobs:
   # This workflow contains a single job
-  policy-checks:
+  job1:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.draft == false && github.event.pull_request.base.ref == 'main' # don't run the policy checks if the PR is in draft state or does not target main.
 
     steps:
       - name: Check codeowners reviews
