@@ -1,5 +1,6 @@
 # Code Owners
-*    @atrao
+*    @codewith1/tech-team
 
-/src/frontend   @codewith1/tech1 @boontadata/test1 @boontadata/test2
-/src/backend   @codewith1/tech2
+src/frontend   @codewith1/tech1 @codewith1/tech-team
+src/backend   @codewith1/tech2
+legal-tagging/ @codewith1/legal-team
