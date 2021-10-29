@@ -11,7 +11,7 @@ env:
 
 jobs:
   # This workflow contains a single job
-  get-code-owners:
+  policy-checks:
     runs-on: ubuntu-latest
     if: github.event.pull_request.draft == false && github.event.pull_request.base.ref == 'main' # don't run the policy checks if the PR is in draft state or does not target main.
 
